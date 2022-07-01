@@ -1,0 +1,21 @@
+.button__standard {
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+
+  height: 40px;
+  width: 107px;
+
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  cursor: pointer;
+}
+
+.button__standard:hover {
+  background: #93d7af;
+  border: #93d7af;
+}

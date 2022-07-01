@@ -1,0 +1,31 @@
+.showcase {
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    margin: 15px auto 20px;
+}
+
+.showcase::-webkit-scrollbar {
+    display: none;
+  }
+
+@media (min-width: 700px) {
+    .showcase {
+        flex-wrap: wrap;
+        max-width: 580px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .showcase {
+        margin: 15px 0 20px;
+    }
+}
+
+@media (min-width: 1460px) {
+    .showcase {
+        max-width: 880px;
+    }
+}

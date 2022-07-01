@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.main {
+  margin-left: 16px;
+}
+
+@media (min-width: 400px) {
+  .search__box {
+    max-width: 382px;
+  }
+  .search__input {
+    max-width: 244px;
+  }
+}
+
+@media (min-width: 1050px) {
+  header {
+    height: 80px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1460px) {
+  header {
+    padding: 0 100px;
+  }
+
+  .main {
+    padding: 0 100px;
+  }
+
+}
