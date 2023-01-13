@@ -1,4 +1,4 @@
-# 🍟: Food Ecommerce
+# 🍟 Food Ecommerce
 
 This is the very first react frontend that I developed!  It is an food ecommerce!
 
