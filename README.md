@@ -3,7 +3,7 @@
 This is the very first react frontend that I developed!  It is an food ecommerce!
 
 > Check the deployed [app](https://burger-ecommerce.vercel.app/).
-<img src="./public/app-design.png" />
+<img src="./src/assets/burger-ecommerce.png" />
 
 💭 Cool features:\
 \
