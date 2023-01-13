@@ -44,7 +44,7 @@ export const Cart = ({ currentSale, setCurrentSale, removeProductCart }) => {
   return (
     <div className="cart">
       <div className="cart__header">
-        <h2>Carrinho de compras</h2>
+        <h2>Cart</h2>
       </div>
 
       {currentSale.length > 0 ? (
@@ -65,9 +65,9 @@ export const Cart = ({ currentSale, setCurrentSale, removeProductCart }) => {
                     onClick={removeProductCart}
                     className="delete__item"
                   >
-                    Remover
+                    Remove
                   </span>
-                  <span className="quantity__label">Qtd: </span>
+                  <span className="quantity__label">Qty: </span>
                   <input
                     className="item__quantity"
                     value={quantity}
@@ -87,15 +87,15 @@ export const Cart = ({ currentSale, setCurrentSale, removeProductCart }) => {
               <p>Total</p>
               <span className="total__price">{cartTotal}</span>
             </div>
-            <Button onClick={removeAllProducts}>Remover todos</Button>
+            <Button onClick={removeAllProducts}>Remove all</Button>
           </div>
         </div>
 
       ) : (
 
         <div className="empty__cart">
-          <h2>Sua sacola está vazia</h2>
-          <span>Adicione itens</span>
+          <h2>Your cart is empty</h2>
+          <span>Add items</span>
         </div>
       )}
 
