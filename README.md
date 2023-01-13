@@ -7,8 +7,8 @@ This is the very first react frontend that I developed!  It is an food ecommerce
 
 💭 features:\
 \
-:heavy_check_mark: Fetch products from an API.
-:heavy_check_mark: Automatically updated products while typing for a search
+:heavy_check_mark: Fetch products from an API.\
+:heavy_check_mark: Automatically updated products while typing for a search\
 Developed mobile first.
 
 ## 📋 Instalation guide
