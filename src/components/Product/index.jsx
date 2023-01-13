@@ -15,7 +15,7 @@ export const Product = ({ product: { id, name, category, price, img }, handleCli
         <h2>{name}</h2>
         <h3>{category}</h3>
         <span>{priceCurrency}</span>
-        <Button dataId={id} handleClick={handleClick}>Adicionar</Button>
+        <Button dataId={id} handleClick={handleClick}>Add to cart</Button>
       </div>
     </div>
   );

@@ -19,10 +19,10 @@ export const Header = ({search, setSearch, isHome, showProducts, home}) => {
             onChange={(event) => {setSearch(event.target.value); showProducts(event)}}
           />
           <Button classBtn={isHome ? "" : "hidden"} onClick={showProducts}>
-            Pesquisar
+            Search
           </Button>
           <Button classBtn={isHome ? "hidden" : ""} onClick={home}>
-            Voltar
+            Go back
           </Button>
         </div>
       </header>
